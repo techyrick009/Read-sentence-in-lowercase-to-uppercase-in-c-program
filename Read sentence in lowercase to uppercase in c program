@@ -1,0 +1,33 @@
+
+/*
+ *  Author: Techyrick.com
+ */
+
+#include<stdio.h> 
+//#include 
+
+void main() {
+
+char ch;
+
+//clrscr();
+
+printf("Enter a String : ");
+
+while( (ch=getchar( )) !='\n')  {
+    
+  if(ch>=97 && ch<=122) {
+    putchar(ch-32);
+    }
+    else {
+        putchar(ch);
+    }
+
+
+
+}
+
+//getch();  
+   
+}
+
